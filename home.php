@@ -47,44 +47,13 @@
 
 						<?php else : // is_active_sidebar( 'sidebar-3' ) ?>
 
-						<section class="widget widget_recent_entries">
-
-							<h2 class="widget-title"><?php _e( 'Recent Posts', 'fsvbasic' ); ?></h2>
-
-							<?php 
-
-							$args = array(
-								'ignore_sticky_posts' => true, 
-								'posts_per_page' => 5
-							);
-
-							$the_query = new WP_Query( $args );
-
-							if ( $the_query->have_posts() ) : ?>
-
-							<ul>
-
-								<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-								<li><span class="post-date"><?php echo get_the_date(); ?></span><span class="post-title-date-on"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span></li>
-
-								<?php endwhile; ?>
-
-							</ul>
-
-							<?php else: ?>
-
-							<p><?php _e( 'There are currently no posts.', 'fsvbasic' ); ?></p>
-
-							<?php endif;
-
-							wp_reset_postdata(); ?>
-
-						</section>
 
 						<?php endif; // is_active_sidebar( 'sidebar-6' ) ?>
-
-					</div><!-- #topmain-widget-area -->
+                        
+<!-- from here you can write main content-->
+  <p class="reservdBtn"><a href="http://akiba2960.com/reserved/">RESERVATION</a></p> 
+                    
+                    </div><!-- #topmain-widget-area -->
 
 				</div><!-- #primary -->
 
@@ -97,7 +66,5 @@
 		</div>
 
 	</div><!-- #main -->
-
-<?php get_sidebar( 'footer' ); ?>
 
 <?php get_footer(); ?>

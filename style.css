@@ -1,14 +1,6 @@
 /*
-Theme Name: FSV BASIC CORPORATE BLUE
-Theme URI: http://www.templateking.jp/
-Author: FirstServer,Inc.
-Author URI: http://www.firstserver.co.jp/
-Description: A generic template that fits all kinds of business websites.
-Version: 1.2
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: blue, one-column, two-columns, right-sidebar, left-sidebar, three-columns, fluid-layout, responsive-layout, custom-background, custom-menu, flexible-header, theme-options, translation-ready
-Text Domain: fsvbasic
+Template:fsv-basic-corporate-blue
+Theme Name:fsv-basic-corporate-blue_child
 */
 
 
@@ -551,7 +543,6 @@ th {
 /* --------- Header Image Area (Slide) --------- */
 
 .header-image-area {
-	border-top: 1px solid #888;
 	width: 100%;
 	height: auto;
 	padding-top: 25px;
@@ -559,10 +550,10 @@ th {
 }
 
 .header-image-area .component-inner {
-	padding-left: 30px;
-	padding-left: 3rem;
-	padding-right: 30px;
-	padding-right: 3rem;
+	padding-left: 0px;
+	padding-left: 0rem;
+	padding-right: 0px;
+	padding-right: 0rem;
 }
 
 /* --------- Navigation Menu --------- */
@@ -1986,10 +1977,10 @@ cite {
 	.site-header-area .component-inner,
 	.header-image-area .component-inner {
 		margin: 0 auto;
-		max-width: 1200px;
-		max-width: 120rem;
-		padding: 0 20px 0;
-		padding: 0 2rem 0;
+		max-width: 100%;
+		max-width: 100%;
+		padding: 0 0px 0;
+		padding: 0 0rem 0;
 	}
 
 	/* =Header Layout
