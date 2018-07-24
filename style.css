@@ -367,3 +367,7 @@ svg {
 .topText p{
     word-break:keep-all;
 }
+
+.imgBlock{
+    background-color:green;
+}
