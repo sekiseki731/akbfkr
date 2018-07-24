@@ -3,6 +3,252 @@ Template:fsv-basic-corporate-blue
 Theme Name:fsv-basic-corporate-blue_child
 */
 
+/* copied from reset css*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.8em;
+  letter-spacing: .1em;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif, 'Noto Sans Japanese', sans-serif, 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+html,
+body {
+  height: 5000px;
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+li {
+/*
+  For IE6 + IE7:
+
+  "display: list-item" keeps bullets from
+  disappearing if hasLayout is triggered.
+*/
+  display: list-item;
+}
+
+left-navi{
+	padding-top: 10px;
+
+}
+
+
+#left-navi ul {
+	text-align: left;
+}
+
+#left-navi li {
+	list-style-type: none;
+	float: left;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+
+.Noto{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+@font-face {
+	font-family: 'nevis';
+        src: url('font/nevis.eot?') format('oldIE'),
+        url('font/nevis.woff') format('woff'),
+        url('font/nevis.ttf') format('truetype');
+}.
+/* until here copied from reset css*/
+
+
 
 
 /* --------- Header Image Area (Slide) --------- */
@@ -35,4 +281,89 @@ Theme Name:fsv-basic-corporate-blue_child
 	}
 
 
-	
+.reservdBtn a{
+    width: 400px;
+    height: 80px;
+    margin: 10px auto;
+    line-height: 75px;
+    background: #ec6941;
+    display: block;
+    color: #fff;
+    font-family: "Josefin Sans",sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-size: 1.875em;
+    font-weight: 700;
+    border: 3px solid #fff;
+    position: relative;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.reservdBtn a:hover{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, .3)
+}
+
+@media screen and (min-width: 641px){
+.reservdBtn a::after {
+    font-family: 'FontAwesome';
+    font-size: 1.2rem;
+    content: "\f105";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+}
+
+.reserveFormTable{
+    border:1px #000 solid;
+    margin:0 auto;
+}
+
+.reserveFormTable th,td{
+    border:1px #000 solid;
+    width:35px;
+    height: auto;
+    font-size:0.875rem;
+    color:#959595;
+    text-align: center;
+}
+
+.time{
+    width:115px;
+    font-size:0.875rem;
+}
+
+.day span{
+    display: block;
+    font-size:0.6rem;
+    color:#959595;
+}
+
+.status{
+    background-color:#ebeae8;
+}
+
+.reserveOnTd{
+    background-color:#ffeef0;
+}
+
+.topText{
+    text-align: center;
+    width:700px;
+    margin:0 auto;
+    margin-top:45px;
+}
+
+.topText p{
+    word-break:keep-all;
+}
