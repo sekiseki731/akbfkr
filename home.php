@@ -270,11 +270,7 @@ s
             <p>We have created this unique space so that owls and people can meet each other.</p>
         </div>
             
-         <div class="slick-box">
-<div class="slick-img"><a href="#"><img src="sample.jpg"></a></div>
-<div class="slick-img"><a href="#"><img src="sample.jpg"></a></div>
-<div class="slick-img"><a href="#"><img src="sample.jpg"></a></div>
-</div>               
+       
 <!-- main content おわり-->
             
 

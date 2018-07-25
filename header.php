@@ -17,12 +17,7 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-
 <?php wp_head(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/slick.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/slick-theme.css" media="screen" />
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/slick.min.js"></script>
-</head>
 <body <?php body_class(); ?>>
 
 
