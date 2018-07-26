@@ -106,7 +106,6 @@ xmp {
 
 html,
 body {
-  height: 5000px;
   margin: 0;
   padding: 0;
 }
@@ -368,7 +367,240 @@ svg {
     word-break:keep-all;
 }
 
-.imgBlock{
-    background-color:green;
-    width:150px;
+.primTitle{
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.4em;
+    font-family: "Josefin Sans",sans-serif;
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+.primTitle::after {
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    background: #000;
+}
+
+.families_container{
+    margin-top:110px;
+}
+
+.article_container{
+    margin-top:110px;
+    clear: both;
+}
+
+.article_container h3{
+    text-align: center;
+    word-break: keep-all;
+    margin-bottom:-25px;
+}
+
+.wide_img{
+    width:auto;
+    height:auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.goods_container{
+    margin-top:250px;
+}
+
+.gotoBtn a{
+    width:350px;
+    margin: 50px auto 0;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 0 3px;
+    display: block;
+    background: #a6935a;
+    border: 1px solid #a6935a;
+    font-size: 20px;
+    font-size: 1.25rem;
+    text-align: center;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.memories_container{
+    position: relative;
+    height:650px;
+}
+
+.memories_container h2{
+    margin-top:150px;
+    padding:65px 0 130px 0 ;
+    background-color:#F2F2F2;
+    text-align: center;
+}
+
+.memories_list{
+    position:absolute;
+    top:230px;
+    width:100%;
+    text-align: center;
+}
+
+.memories_list li{
+    width:25%;
+    margin:0 2% 5% 2%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.memories_list a{
+    text-decoration: none;
+}
+
+.memories_list img{
+    width:100%;
+    height:auto;
+}
+
+.memories_list p{
+    margin-top:12px;
+    text-align: center;
+    font-size: 0.875rem;
+    word-break: keep-all;
+}
+
+.centerText{
+    text-align: center;
+    margin:0 auto;
+    margin-top:45px;
+}
+
+.centerText p{
+    margin-top: 25px;
+    word-break:keep-all;
+}
+
+
+.content_wrapper li{
+    width:800px;
+    margin:0 auto;
+    border-top:0.5px solid #E0E0E0;
+    padding: 30px 0 36px;
+}
+
+.content_img{
+    display:inline-block;
+    width:30%;
+    margin-right:30px;
+    vertical-align: top;
+}
+
+.content_img img{
+    width:100%;
+}
+
+.content_text{
+    width:60%;
+    display: inline-block
+}
+
+.content_wrapper h3{
+    margin-bottom:20px;
+    font-size:1.5rem;
+    text-align: left;
+}
+
+.content_bottom_border{
+    border-bottom:0.5px solid #E0E0E0;    
+}
+
+.topReview a{
+    text-decoration: none;
+}
+
+.topReview span{
+    width: 80px;
+    color: #00a680;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-size: 14px;
+    font-size: .875rem;
+}
+
+.blog_container{
+    background-color: #E5E5DC;
+    padding-top:100px;
+    margin-top:100px;
+    padding-bottom:110px;
+}
+
+.blog_container li{
+    width: 20%;
+    display: inline-block;
+    background: #fff;
+    vertical-align: top;
+    border: #EBEBEB 1px solid;
+    box-shadow: 3px 3px 0 rgba(8,1,2,0.03);
+    margin: 0 2% 4% 0;
+}
+
+.blog_container img{
+    width:100%;
+}
+
+.blog_container h3{
+    margin:0;
+    padding-bottom:20px;
+}
+
+.blog_content{
+    display: flex;
+    justify-content: center;
+}
+
+.blogText{
+    padding:15px;
+}
+
+.blogText h3{
+    text-align: left;
+}
+
+.gotoBtn a::before {
+    font-family: 'FontAwesome';
+    font-size: 1.2rem;
+    content: "\f105";
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.access_container p{
+    text-align: center;
+}
+
+.access_map{
+    height:450px;
+    width:100%;
+    background-color: azure;
+    font-size:48px;
+    text-align: center;
+    line-height: 450px;
+    vertical-align: middle;
 }
