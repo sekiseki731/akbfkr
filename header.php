@@ -100,19 +100,31 @@
 
 	<div id="header-nav-area" class="navigation-area">
 
-		<div class="component-inner">
+		<div class="nav_component">
 
-			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'fsvbasic' ); ?>"><?php _e( 'Skip to content', 'fsvbasic' ); ?></a>
-
+            <h1 class="site_title"><a href="#">AKIBA<br>FUKUROU</a></h1>
+            
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => 'div', 'container_class' => 'menu' , 'menu_class' => 'menu' ) ); ?>
 
 			</nav><!-- #site-navigation -->
-
-		</div><!-- .component-inner -->
-
+            <div class="headConv">
+                <ul class="headConvList">
+                    <li class="headConvListCon">
+                        <a href="http://akiba2960.com/reserved/">RESERVATION</a>
+                    </li>
+                    <li class="headConvListCon convListLang">
+                        <a class="">ENGLISH</a>
+                    </li>
+                </ul>
+            </div>
+		</div><!-- .nav_component に変えたよ。　元.component-inner -->
+        
+         
 	</div><!-- #header-nav-area -->
+        
+   
 
 	<?php
 

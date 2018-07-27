@@ -11,7 +11,7 @@
 ?>
 
 <?php get_header(); ?>
-s
+
     <div id="main" class="main-content-area">
 
         <!-- from here you can write main content-->
@@ -517,7 +517,6 @@ echo do_shortcode('[smartslider3 slider=4]');
                     <p class="access_map">Google map Here!
                     </p>
                 </div>
-                
             </div>
                 <!-- main content おわり-->
             

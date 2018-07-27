@@ -279,6 +279,7 @@ svg {
 		padding: 0 0rem 0;
 	}
 
+/* Body */
 
 .reservdBtn a{
     width: 400px;
@@ -420,7 +421,7 @@ svg {
     position: relative;
     color: #fff;
     font-weight: 600;
-    padding: 5px 0 3px;
+    padding: 10px 0;
     display: block;
     background: #a6935a;
     border: 1px solid #a6935a;
@@ -527,6 +528,11 @@ svg {
     text-decoration: none;
 }
 
+.topReview p{
+    font-size:18px;
+}
+
+
 .topReview span{
     width: 80px;
     color: #00a680;
@@ -603,4 +609,134 @@ svg {
     text-align: center;
     line-height: 450px;
     vertical-align: middle;
+}
+
+
+/* header */
+#masthead{
+    display:none;
+}
+
+
+#header-nav-area{
+    
+}
+
+.nav_component {
+    display:flex;
+    width:100%;
+    height:100px;
+    border-top: 10px solid #af936c;
+    background: #fff;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+    vertical-align: middle;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav_component > :last-child{
+}
+
+.site_title{
+    width:180px;
+    height:90px;
+    margin-top:10px;
+}
+
+.site_title h1,a{
+    color: #7F5D27;
+    font-size: 30px;
+    font-size: 1.75rem;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+#site-navigation div.menu > ul > li{
+    margin-top:10px;
+    background:none;
+}
+
+#site-navigation div.menu > ul > li:last-child {
+    background:none;
+}
+
+#site-navigation div.menu > ul > li > a {
+    padding: 10px 10px;
+    padding: 1.0rem 1.0rem;
+    margin-left: 1px;
+    color: #E1D7C7;
+    font-size:18px;
+}
+
+.headConv{
+    display: flex;
+    margin-left:auto;
+    position: relative;
+}
+
+.headConvList{
+    position: relative;
+}
+
+.headConvListCon a {
+    width: 175px;
+    height: 44px;
+    background: #df807a;
+    font-size: .75rem;
+    text-align: center;
+    display: block;
+    color: #fff;
+    line-height: 44px;
+    font-family: "Josefin Sans",sans-serif;
+    font-style: italic;
+}
+
+.headConvListCon:last-child a {
+    margin-top: 1px;
+    background: #bfb6a9;
+    line-height: 45px;
+}
+
+.headConv .headConvList .headConvListCon a::after {
+    font-family: 'FontAwesome';
+    font-size: 1.2rem;
+    content: "\f105";
+    position: absolute;
+    color: #fff;
+    top: 25%;
+    right: 10px;
+    font-style: normal;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.headConv .headConvList .headConvListCon:last-child a::before {
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    content: "\f0ac";
+    position: absolute;
+    color: #fff;
+    top: 75%;
+    right: 13px;
+    font-style: normal;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* footer */
+.footer-copy-area {
+	line-height: 1;
+	padding: 10px 0;
+	padding: 1rem 0;
+	background-color: #AE926E;
+    font-size:0.875rem;
 }
